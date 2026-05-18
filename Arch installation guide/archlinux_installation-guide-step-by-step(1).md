@@ -85,6 +85,7 @@ mkfs. <br>
 >untuk root : mkfs.ext4 /dev/nama_partisi_untuk_root /mnt <br> 
 
 >untuk home : mkfs.ext4 /dev/nama_partisi_untuk_home /mnt/home
+>untuk swap : mkswap /dev/nama_partisi_untuk_swap 
 
 [!info] mengapa harus FAT -F32 ? , karena linux harus menggunakan -F32 , mengapa menggunakan ext4 ? , karena ini yang lebih modern dan stabil dalam format sistemnya
 
